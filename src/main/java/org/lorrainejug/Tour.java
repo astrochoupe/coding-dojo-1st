@@ -15,7 +15,7 @@ public class Tour {
         this.lancer2 = lancer2;
         if(lancer1 == 10)
             bonus = Bonus.STRIKE;
-        else if(lancer1+lancer2 ==10)
+        else if(lancer1+lancer2 == 10)
             bonus=Bonus.SPARE;
         else
             bonus = Bonus.AUCUN;
